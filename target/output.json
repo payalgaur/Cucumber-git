@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 379641182,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers",
+            "match": {
+              "location": "firstStep.fetchNumbers()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Add two numbers 2 and 4.",
+        "description": "",
+        "id": "testing-my-framework;add-two-numbers-2-and-4.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4576717,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add \"both\" the numbers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "both",
+                  "offset": 7
+                }
+              ],
+              "location": "firstStep.i_add_the_numbers(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48614,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "numbers should be added",
+            "match": {
+              "location": "firstStep.numbers_should_be_added()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 63575,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers",
+            "match": {
+              "location": "firstStep.fetchNumbers()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Add three numbers 2 and 4 and 6.",
+        "description": "",
+        "id": "testing-my-framework;add-three-numbers-2-and-4-and-6.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59603,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "there is third number",
+            "match": {
+              "location": "firstStep.there_is_third_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201583,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I add \"all\" the numbers",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all",
+                  "offset": 7
+                }
+              ],
+              "location": "firstStep.i_add_the_numbers(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61214,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "numbers should be added",
+            "match": {
+              "location": "firstStep.numbers_should_be_added()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51719,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check the result",
+            "match": {
+              "location": "firstStep.check_the_result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Testing my Framework",
+    "description": "",
+    "id": "testing-my-framework",
+    "keyword": "Feature",
+    "uri": "First.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
